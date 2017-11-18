@@ -1,0 +1,160 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body{
+	height:100%
+}
+
+/* 列表区的样式 */
+li{
+	border: 0.5px solid #ddd !important;
+	color:black;
+}
+li:hover{
+	cursor:pointer;
+	background-color: #66cdaa;
+	color:white;
+}
+.li-visited{
+	cursor:pointer;
+	background-color: #66cdaa;
+	color:white;
+}
+
+header{
+	width:100%;
+	background-color: #01b468;
+}
+
+/* 头部的列表样式 */
+.navbar-collapse ul{
+	margin-right:100px;
+}
+
+/* logo */
+.easynote-logo{
+	padding-bottom: 0!important;
+	line-height: 35px;
+	padding-top: 6px;
+}
+
+.easynote-logo:before{
+	content: "";
+	display: block;
+	background: url("../img/CrawlerLogo.png") no-repeat;
+	width: 40px;
+	height:40px;
+	float:left;
+	background-size: 40px;
+	margin-right: 5px;
+}
+
+/* 退出字样 */
+.exit{
+	color: #fff;
+	margin-top: 15px;
+	cursor:pointer;
+}
+
+/* app name 字样 */
+.app-name{
+	color:white;
+	font-weight: 300;
+}
+
+.navbar-nav > li {
+	border-bottom: 1px solid rgba(51, 51, 51, 0);
+	line-height: 20px;
+	display: inline-block;
+	color:white;
+	padding:5px;
+	margin: 10px;
+}
+
+.container{
+	width:100%;
+	margin: 0px;
+	padding: 0px;
+	height: 100%
+	
+}
+
+content: {
+	height: 100%
+}
+
+/* 笔记本和笔记面板样式 */
+.notebook-panel,.notetitle-panel{
+    height: 100%;
+    border-right: 0.5px solid #e7e7e7;
+    position: relative;
+}
+
+.notebook-panel,.notetitle-panel ul{
+	border-width: 0px!important;
+}
+
+.notebook-panel{
+	background-color: #202e3b;
+	color:white;
+}
+
+/* 新建笔记本和笔记的li样式 */
+.new-notebook, .new-note{
+	background-color: #01b468;
+	color: white;
+}
+
+/* 删除笔记本和笔记的li样式 */
+.del-notebook, .del-note{
+	background-color: #e6e6e6;
+}
+
+/* 正文面板样式 */
+.note-detail-panel{
+	height:100%;
+}
+
+/* 列表设成绝对位置 */
+.notebooks, .notes{
+	position: absolute;
+}
+
+/* 富文本编辑器样式 */
+.wangEditor-container{
+	border-width: 0.5px!important;
+	height:82%!important;
+	z-index: 0!important;
+}
+/* 正文编辑区 */
+#editor{
+	height:90%!important;
+	z-index: 0!important;
+} 
+
+#editor div:nth-child(2){
+	height:92%!important;
+	border: 0.5px solid #ddd!important;
+}
+
+#success-tip,#warning-tip{
+	display: none;
+}
+
+/* 模态框的样式 */
+.alert{
+	display: inline-block;
+	padding: 10px!important;
+	height:40px!important;
+}
+
+.modal{
+	z-index: 10400!important;
+}
+
+/* 提交按钮样式 */
+.submit{
+	margin-top: 10px;
+}
